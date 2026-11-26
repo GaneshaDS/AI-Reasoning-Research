@@ -6,6 +6,10 @@
   <img src="https://img.shields.io/badge/LLMs-Reasoning-green?style=for-the-badge" />
 </p>
 
+<p align="center">
+  <b>Research paper</b> · Instituto Tecnológico de Morelia (TecNM) · <a href="./InvestigaciónInteligenciaArtificial.pdf">Read the full paper (PDF, in Spanish)</a>
+</p>
+
 ---
 
 ## ⚡ Core Question
@@ -76,19 +80,25 @@ It covers:
 
 ## 📊 Visual Intuition
 
-<p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*BHzGVskWGS_3jEcYYi6miQ.png" width="600"/>
-</p>
+```mermaid
+flowchart LR
+    A["Transformer<br/>self-attention"] --> B["Scaling<br/>parameters · data · compute"]
+    B --> C["Emergent abilities"]
+    C --> D["Chain-of-Thought<br/>prompting"]
+    D --> E{"True reasoning?"}
+    E -->|"Strong"| F["Inductive<br/>pattern matching"]
+    E -->|"Weak"| G["Deductive and<br/>causal inference"]
+```
 
 <p align="center">
-  <em>Transformer attention enables global context understanding</em>
+  <em>The path the paper follows: from architecture and scale to the limits of current reasoning</em>
 </p>
 
 ---
 
 ## 📄 Full Research Paper
 
-📥 [Download PDF](./InvestigaciónInteligenciaArtificial.pdf)
+📥 [Download PDF](./InvestigaciónInteligenciaArtificial.pdf) — written in Spanish as a final paper at the Instituto Tecnológico de Morelia (TecNM).
 
 ---
 
@@ -121,6 +131,16 @@ This work is part of an early-stage exploration into **AI reasoning systems**, w
 ## 🤝 Contributions
 
 This is an independent research project. Suggestions, critiques, and discussions are welcome.
+
+---
+
+## 👨‍💻 Author
+
+**Heriberto Ganesha Cortés Valdez** · [LinkedIn](https://www.linkedin.com/in/heriberto-ganesha-cort%C3%A9s-valdez-28bbb72b7/) · [ganesha.dev@outlook.com](mailto:ganesha.dev@outlook.com)
+
+## 📜 License
+
+The paper is shared under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE). You may share and adapt it as long as you give appropriate credit.
 
 ---
 
